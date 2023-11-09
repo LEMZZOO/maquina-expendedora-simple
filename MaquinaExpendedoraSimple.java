@@ -73,4 +73,7 @@
     public void setReducirPrecioBillete(int bajarPrecio){
         precioBillete = precioBillete - bajarPrecio;
     }
+    public void setVaciarDepositoDinero(){
+        totalDineroAcumulado = 0;
+    }
 }
