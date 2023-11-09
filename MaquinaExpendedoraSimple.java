@@ -70,10 +70,10 @@
     public void setPrecioBillete(int cambiarPrecio){
         precioBillete = cambiarPrecio;
     }
-    public void setReducirPrecioBillete(int bajarPrecio){
+    public void ReducirPrecioBillete(int bajarPrecio){
         precioBillete = precioBillete - bajarPrecio;
     }
-    public void setVaciarDepositoDinero(){
+    public void VaciarDepositoDinero(){
         totalDineroAcumulado = 0;
     }
 }
