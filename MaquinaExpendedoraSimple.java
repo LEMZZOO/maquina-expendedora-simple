@@ -70,5 +70,7 @@
     public void setPrecioBillete(int cambiarPrecio){
         precioBillete = cambiarPrecio;
     }
-        
+    public void setReducirPrecioBillete(int bajarPrecio){
+        precioBillete = precioBillete - bajarPrecio;
+    }
 }
