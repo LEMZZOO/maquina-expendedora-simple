@@ -65,6 +65,10 @@
         balanceClienteActual = 0;
     }
     public int getTotalDineroAcumulado() {
-    return totalDineroAcumulado;
+        return totalDineroAcumulado;
     }
+    public void setPrecioBillete(int cambiarPrecio){
+        precioBillete = cambiarPrecio;
+    }
+        
 }
